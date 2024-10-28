@@ -1,25 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import "react-multi-carousel/lib/styles.css";
-import CardCarousel from './components/CardCarousel ';
-import CustomTestimonial from './components/CustomTestimonial';
-import ImageGallery from './components/ImageGallery';
-import MultiRowCarousel from './components/Multi-row';
-import ProductCarousel from './components/ProductSlider';
-function App() {
-  const [count, setCount] = useState(0)
+import "./App.css";
+import CardCarousel from "./components/Card";
+import ImageGallery from "./components/ImageGallery";
+import MultiRowCarousel from "./components/MultiRow";
+// import CustomTestimonialCarousel from "./components/Custom";
+// import ProductCarousel from "./components/Product";
 
+function App() {
   return (
-    <>
-     <CardCarousel/>
-     {/* <CustomTestimonial/>
-     <ImageGallery/>
-     <MultiRowCarousel/>
-     <ProductCarousel/> */}
-    </>
-  )
+    <div>
+     
+        {/* <ProductCarousel/> */}
+        {/* <CustomTestimonialCarousel/> */}
+      {/* <ImageGallery/> */}
+      {/* <MultiRowCarousel/> */}
+      <CardCarousel/>
+    </div>
+  );
 }
 
-export default App
+export default App;
